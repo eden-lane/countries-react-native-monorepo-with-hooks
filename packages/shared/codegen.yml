@@ -1,0 +1,10 @@
+overwrite: true
+documents:
+  - "./**/*.gql"
+generates:
+  generated.ts:
+    schema: "https://countries.trevorblades.com/"
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"

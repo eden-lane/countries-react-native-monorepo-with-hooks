@@ -1,0 +1,13 @@
+{
+  "name": "countries",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}

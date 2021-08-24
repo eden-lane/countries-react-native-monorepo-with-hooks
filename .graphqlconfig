@@ -1,0 +1,21 @@
+{
+  "name": "Untitled GraphQL Schema",
+  "schemaPath": "schema.graphql",
+  "includes": [
+    "./packages/**",
+  ],
+  "excludes": [
+    "node_modules/**"
+  ],
+  "extensions": {
+    "endpoints": {
+      "Default GraphQL Endpoint": {
+        "url": "https://countries.trevorblades.com/",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": true
+      }
+    }
+  }
+}
